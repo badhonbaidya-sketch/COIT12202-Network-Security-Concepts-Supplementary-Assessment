@@ -51,3 +51,10 @@ The Root CA certificate was successfully downloaded from the VPNServer to the LA
 Successfully verified the HTTPS connection using the trusted Root CA certificate. The webpage loaded without SSL errors, and OpenSSL confirmed that the server certificate was valid and signed by the trusted Certificate Authority.
 
 <img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/97272362-f6dd-47e7-9866-c53b30419ef2" />
+
+## SS10 - WireGuard Key Generation and VPNServer Configuration*
+
+I generated the WireGuard private and public keys on VPNServer and checked the existing configuration. The VPNServer uses IP address 10.0.0.1/24 and port 51820, with 10.0.0.2/32 configured for the client peer. This prepares the server for establishing a secure VPN tunnel.
+
+<img width="959" height="566" alt="image" src="https://github.com/user-attachments/assets/43a232e8-bb9c-4de7-bd37-8977af545700" />
+
