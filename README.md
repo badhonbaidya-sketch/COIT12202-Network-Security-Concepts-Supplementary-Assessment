@@ -33,3 +33,9 @@ The server certificate was successfully signed by Badhon Root CA. OpenSSL verifi
 The CA-signed server certificate was successfully downloaded from VPNServer to LAN-Host using HTTP on port 8080. OpenSSL was used to verify the certificate details, confirming that it was issued by Badhon Root CA for www.12305332.lab.
 
 <img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/7c54c8b7-0712-496a-9db5-e218d53c1991" />
+
+## SS7 – Nginx HTTPS Configuration and Successful Testing
+
+Nginx was successfully configured to use the CA-signed SSL certificate on port 443. The configuration test passed, and the HTTPS connection returned HTTP/1.1 200 OK, confirming that the secure web server is responding correctly.
+
+<img width="959" height="565" alt="image" src="https://github.com/user-attachments/assets/5849833a-222d-4ca2-9696-36c4d25c5c77" />
