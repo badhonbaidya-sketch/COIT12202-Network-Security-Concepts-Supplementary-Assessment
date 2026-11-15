@@ -45,3 +45,9 @@ Nginx was successfully configured to use the CA-signed SSL certificate on port 4
 The Root CA certificate was successfully downloaded from the VPNServer to the LAN-Host. OpenSSL confirmed the certificate's subject and issuer as Badhon Root CA, establishing the CA identity needed for HTTPS certificate verification.
 
 <img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/a8e363dd-6bbc-4797-97d3-114582794630" />
+
+## SS9 – HTTPS and Certificate Chain Verification
+
+Successfully verified the HTTPS connection using the trusted Root CA certificate. The webpage loaded without SSL errors, and OpenSSL confirmed that the server certificate was valid and signed by the trusted Certificate Authority.
+
+<img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/97272362-f6dd-47e7-9866-c53b30419ef2" />
