@@ -64,4 +64,4 @@ I configured and activated the WireGuard VPNServer using the `wg-quick up wg0` c
 
 <img width="959" height="565" alt="image" src="https://github.com/user-attachments/assets/289630fd-a451-403a-afd2-61b22854a538" />
 
-## 
+## SS12
