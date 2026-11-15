@@ -27,3 +27,9 @@ The Certificate Signing Request (CSR) was successfully transferred from LAN-Host
 The server certificate was successfully signed by Badhon Root CA. OpenSSL verification returned OK, confirming that the certificate was issued by the trusted Root CA. The certificate is valid for one year and identifies www.12305332.lab.
 
 <img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/75a1d357-44bb-420e-b8a0-b7ca7593d593" />
+
+## SS6 – Signed Certificate Transfer and Verification
+
+The CA-signed server certificate was successfully downloaded from VPNServer to LAN-Host using HTTP on port 8080. OpenSSL was used to verify the certificate details, confirming that it was issued by Badhon Root CA for www.12305332.lab.
+
+<img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/7c54c8b7-0712-496a-9db5-e218d53c1991" />
