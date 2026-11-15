@@ -22,3 +22,8 @@ The Certificate Signing Request (CSR) was successfully transferred from LAN-Host
 
 <img width="959" height="564" alt="image" src="https://github.com/user-attachments/assets/5c910353-e336-48f3-8fe8-476416264bde" />
 
+## SS5 – Server Certificate Signing and Verification
+
+The server certificate was successfully signed by Badhon Root CA. OpenSSL verification returned OK, confirming that the certificate was issued by the trusted Root CA. The certificate is valid for one year and identifies www.12305332.lab.
+
+<img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/75a1d357-44bb-420e-b8a0-b7ca7593d593" />
