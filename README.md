@@ -58,3 +58,10 @@ I generated the WireGuard private and public keys on VPNServer and checked the e
 
 <img width="959" height="566" alt="image" src="https://github.com/user-attachments/assets/43a232e8-bb9c-4de7-bd37-8977af545700" />
 
+## SS11 WireGuard VPNServer Configuration and Interface Verification
+
+I configured and activated the WireGuard VPNServer using the `wg-quick up wg0` command. The server interface was successfully created with IP address 10.0.0.1/24 and listening port 51820. I used `wg show` to verify that the interface was running and the client peer public key was correctly configured with AllowedIPs 10.0.0.2/32. The output confirms that the VPNServer is ready for client connection testing. 
+
+<img width="959" height="565" alt="image" src="https://github.com/user-attachments/assets/289630fd-a451-403a-afd2-61b22854a538" />
+
+## 
