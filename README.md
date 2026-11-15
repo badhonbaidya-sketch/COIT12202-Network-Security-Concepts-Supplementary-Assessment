@@ -15,3 +15,10 @@ I tested the initial network connectivity using ping commands. The purpose was t
 I created a Root Certificate Authority using OpenSSL on VPNServer. I generated a 4096-bit RSA private key and a self-signed certificate valid for approximately 10 years. The verification output confirms that the certificate subject and issuer match, showing that the Root CA is self-signed.
 
 <img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/207d1a04-f6cc-4d1a-8b3f-9d432ffc7ad6" />
+
+## SS4: CSR Transfer and Verification*
+
+The Certificate Signing Request (CSR) was successfully transferred from LAN-Host to VPNServer using HTTP on port 8080. OpenSSL was used to verify the CSR subject and confirm the server identity before certificate signing.
+
+<img width="959" height="564" alt="image" src="https://github.com/user-attachments/assets/5c910353-e336-48f3-8fe8-476416264bde" />
+
