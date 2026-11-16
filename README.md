@@ -64,4 +64,10 @@ I configured and activated the WireGuard VPNServer using the `wg-quick up wg0` c
 
 <img width="959" height="565" alt="image" src="https://github.com/user-attachments/assets/289630fd-a451-403a-afd2-61b22854a538" />
 
-## SS12
+## SS12 Successful WireGuard VPN Connectivity Test
+
+The WireGuard VPN tunnel was successfully configured and activated on the client using the wg-quick up wg0 command. The client was assigned the VPN IP address 10.0.0.2/24. Connectivity was verified by pinging the VPN server (10.0.0.1) and the internal LAN host (10.10.1.10). Both tests returned 4 packets received with 0% packet loss, confirming successful VPN connectivity and access to the remote LAN through the WireGuard tunnel.
+
+<img width="1600" height="856" alt="image" src="https://github.com/user-attachments/assets/38ef256e-28ea-492a-a2fe-d560af09e9fb" />
+
+## SS13 
