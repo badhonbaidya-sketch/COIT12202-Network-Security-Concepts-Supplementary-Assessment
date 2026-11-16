@@ -81,3 +81,4 @@ The WireGuard VPN tunnel was successfully established between the client and VPN
 Wireshark was used to capture and analyse WireGuard VPN traffic using the display filter udp.port == 51820. The capture shows successful handshake initiation and response between the client (198.51.100.10) and VPN server (203.0.113.1). Multiple encrypted Transport Data packets were exchanged in both directions, confirming that the VPN tunnel was established and actively transmitting encrypted traffic. This demonstrates successful WireGuard communication and secure data transmission between the client and server.
 
 <img width="1600" height="862" alt="WhatsApp Image 2026-11-16 at 7 19 18 PM" src="https://github.com/user-attachments/assets/cab12711-b441-448e-acb3-43e714a24843" />
+
