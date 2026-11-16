@@ -70,4 +70,9 @@ The WireGuard VPN tunnel was successfully configured and activated on the client
 
 <img width="1600" height="856" alt="image" src="https://github.com/user-attachments/assets/38ef256e-28ea-492a-a2fe-d560af09e9fb" />
 
-## SS13 
+## SS13 Successful WireGuard VPN Connection and Handshake Verification
+
+The WireGuard VPN tunnel was successfully established between the client and VPN server. The client was assigned IP address 10.0.0.2/24, and connectivity tests to the VPN server (10.0.0.1) and internal LAN host (10.10.1.10) were successful, with 0% packet loss. The wg show command confirmed a recent successful handshake, bidirectional data transfer (1.27 KiB received and 1.87 KiB sent), and a persistent keepalive interval of 25 seconds. These results verify that the WireGuard VPN tunnel is active and providing secure connectivity to the remote LAN.
+
+<img width="1600" height="855" alt="WhatsApp Image 2026-11-16 at 6 45 03 PM" src="https://github.com/user-attachments/assets/678eb376-31be-45ab-a263-2dc6153dc7f5" />
+
