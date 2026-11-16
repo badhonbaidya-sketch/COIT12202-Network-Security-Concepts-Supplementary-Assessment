@@ -16,7 +16,7 @@ I created a Root Certificate Authority using OpenSSL on VPNServer. I generated a
 
 <img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/207d1a04-f6cc-4d1a-8b3f-9d432ffc7ad6" />
 
-## SS4: CSR Transfer and Verification*
+## SS4 - CSR Transfer and Verification*
 
 The Certificate Signing Request (CSR) was successfully transferred from LAN-Host to VPNServer using HTTP on port 8080. OpenSSL was used to verify the CSR subject and confirm the server identity before certificate signing.
 
@@ -58,19 +58,19 @@ I generated the WireGuard private and public keys on VPNServer and checked the e
 
 <img width="959" height="566" alt="image" src="https://github.com/user-attachments/assets/43a232e8-bb9c-4de7-bd37-8977af545700" />
 
-## SS11 WireGuard VPNServer Configuration and Interface Verification
+## SS11 - WireGuard VPNServer Configuration and Interface Verification
 
 I configured and activated the WireGuard VPNServer using the `wg-quick up wg0` command. The server interface was successfully created with IP address 10.0.0.1/24 and listening port 51820. I used `wg show` to verify that the interface was running and the client peer public key was correctly configured with AllowedIPs 10.0.0.2/32. The output confirms that the VPNServer is ready for client connection testing. 
 
 <img width="959" height="565" alt="image" src="https://github.com/user-attachments/assets/289630fd-a451-403a-afd2-61b22854a538" />
 
-## SS12 Successful WireGuard VPN Connectivity Test
+## SS12 - Successful WireGuard VPN Connectivity Test
 
 The WireGuard VPN tunnel was successfully configured and activated on the client using the wg-quick up wg0 command. The client was assigned the VPN IP address 10.0.0.2/24. Connectivity was verified by pinging the VPN server (10.0.0.1) and the internal LAN host (10.10.1.10). Both tests returned 4 packets received with 0% packet loss, confirming successful VPN connectivity and access to the remote LAN through the WireGuard tunnel.
 
 <img width="1600" height="856" alt="image" src="https://github.com/user-attachments/assets/38ef256e-28ea-492a-a2fe-d560af09e9fb" />
 
-## SS13 Successful WireGuard VPN Connection and Handshake Verification
+## SS13 - Successful WireGuard VPN Connection and Handshake Verification
 
 The WireGuard VPN tunnel was successfully established between the client and VPN server. The client was assigned IP address 10.0.0.2/24, and connectivity tests to the VPN server (10.0.0.1) and internal LAN host (10.10.1.10) were successful, with 0% packet loss. The wg show command confirmed a recent successful handshake, bidirectional data transfer (1.27 KiB received and 1.87 KiB sent), and a persistent keepalive interval of 25 seconds. These results verify that the WireGuard VPN tunnel is active and providing secure connectivity to the remote LAN.
 
